@@ -108,6 +108,8 @@ def generate_list(list_type):
 available_formatters = ["plain", "bold", "italic", "header", "link",
                         "inline-code", "new-line", "ordered-list", "unordered-list"]
 markdown = ""
+help_editor()
+help_editor()
 while True:
     formatter = input("Choose a formatter: ")
     if formatter == "!done":
